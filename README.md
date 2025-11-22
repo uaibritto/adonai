@@ -4,24 +4,15 @@
   <img src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/hbDPaitqPi/original" alt="Omniscient Logo" width="300">
 </div>
 
-## Features
-
-- Theming for dark mode
-- Theming for light mode
-
 <div align="right">
 	<img src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/aeXTvzW1d6/original" alt="Cat Logo" width="50">
 </div>
 
 ## Screenshots
 
-#### Light Mode
-
-![Light Mode](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/n0d82p4U7D/original)
-
-#### Dark Mode
-
-![Dark Mode](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/cPusrDptLR/original)
+| Light                                                                                                      | Dark                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| ![Light Mode](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/n0d82p4U7D/original) | ![Dark Mode](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/cPusrDptLR/original) |
 
 ## Issues
 
