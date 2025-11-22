@@ -1,0 +1,8 @@
+id = "adonai"
+name = "Adonai"
+version = "0.0.3"
+schema_version = 2
+author = "uaibritto <uaibritto@icloud.com>"
+description = "A lightweight and minimalist theme for code editors, featuring high contrast and vibrant colors that highlight syntax without distractions, maintaining focus and readability."
+repository = "https://github.com/uaibritto/adonai"
+themes = ["dist/adonai-light.json", "dist/adonai-dark.json"]

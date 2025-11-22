@@ -1,0 +1,10 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "active": true,
+    "hobbies": ["reading", "coding", "hiking"],
+    "roles": {
+        "admin": true,
+        "user": true
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "build:dark": "bun --watch src/build.ts --palette=dark",
+        "build:light": "bun --watch src/build.ts --palette=light",
+        "lint": "biome check --write"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.3.6",
+        "@types/bun": "latest",
+        "@types/node": "^24.10.1",
+        "@types/tinycolor2": "^1.4.6"
+    },
+    "dependencies": {
+        "tinycolor2": "^1.6.0"
+    }
+}

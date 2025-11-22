@@ -1,0 +1,8 @@
+languages = []
+capabilities = []
+[lib]
+[grammars]
+[language_servers]
+[context_servers]
+[slash_commands]
+[indexed_docs_providers]
