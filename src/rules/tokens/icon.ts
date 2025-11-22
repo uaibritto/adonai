@@ -1,4 +1,4 @@
-import type { Color } from "interfaces";
+import type { Color } from "interfaces"
 
 export function icon(color: Color) {
 	return {
@@ -6,6 +6,6 @@ export function icon(color: Color) {
 		"icon.accent": color.red,
 		"icon.disabled": color.muted,
 		"icon.muted": color.muted,
-		"icon.placeholder": color.muted,
-	};
+		"icon.placeholder": color.muted
+	}
 }

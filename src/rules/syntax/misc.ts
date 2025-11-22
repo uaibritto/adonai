@@ -1,5 +1,4 @@
 import type { Color, Syntax } from "interfaces"
-import { lighten } from "utils"
 
 export function misc(color: Color): Record<string, Syntax> {
 	return {

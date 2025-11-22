@@ -1,4 +1,4 @@
-import type { Color } from "interfaces";
+import type { Color } from "interfaces"
 
 export function terminal(color: Color) {
 	return {
@@ -29,6 +29,6 @@ export function terminal(color: Color) {
 		"terminal.ansi.dim_magenta": color.indigo,
 		"terminal.ansi.dim_red": color.red,
 		"terminal.ansi.dim_white": color.white,
-		"terminal.ansi.dim_yellow": color.yellow,
-	};
+		"terminal.ansi.dim_yellow": color.yellow
+	}
 }

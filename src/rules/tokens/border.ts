@@ -1,4 +1,4 @@
-import type { Color } from "interfaces";
+import type { Color } from "interfaces"
 
 export function border(color: Color) {
 	return {
@@ -7,6 +7,6 @@ export function border(color: Color) {
 		"border.focused": color.border,
 		"border.selected": color.border,
 		"border.transparent": color.background,
-		"border.variant": color.border,
-	};
+		"border.variant": color.border
+	}
 }

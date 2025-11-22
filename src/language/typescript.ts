@@ -1,75 +1,73 @@
-import { useEffect } from "react";
+var text: string = "hello"
+var _int: number = 42
+var _bool: boolean = true
+var _undefined
 
-var text: string = "hello";
-var int: number = 42;
-var bool: boolean = true;
-var undefined = undefined;
+var _nulo = null
 
-var nulo = null;
+var _array: string[] = ["one", "two", "three"]
+var dictionary: obj = { key: "example", value: 42 } as const
 
-var array: string[] = ["one", "two", "three"];
-var dictionary: obj = { key: "example", value: 42 } as const;
+dictionary.key
 
-dictionary.key;
-
-var regex = /[a-z]/;
-var scape: string = "scape \n";
-var interpolation = `hello ${text}`;
+var _regex = /[a-z]/
+var _scape: string = "scape \n"
+var _interpolation = `hello ${text}`
 
 if (true && false) {
-    console.log("alguma coisa");
+	console.log("alguma coisa")
 }
 
-type fn = () => void;
-type obj = { key: string; value: number };
-type Union = string | number;
-type age = Omit<Person, "name">;
-type name = Pick<Person, "name">;
+type fn = () => void
+type obj = { key: string; value: number }
+type Union = string | number
+type age = Omit<Person, "name">
+type name = Pick<Person, "name">
 
-this;
+this
 
-console.log("alugma cois");
+console.log("alugma cois")
 // Comentario
 /*
  * alguma coisa
  */
 
 enum Color {
-    Red,
-    Green,
-    Blue,
+	Red,
+	Green,
+	Blue
 }
 
 interface Human {
-    name: string;
+	name: string
 }
 
 @GET("/register")
 class Person implements Human {
-    public name: string;
+	public name: string
 
-    constructor(name: string) {
-        this.name = name;
-    }
+	constructor(name: string) {
+		this.name = name
+	}
 
-    static createPerson(name: string): Person {
-        return new Person(name);
-    }
+	static createPerson(name: string): Person {
+		return new Person(name)
+	}
 
-    override create() {}
+	override create() {}
 }
 
-Person.createPerson("John");
+Person.createPerson("John")
 
 setTimeout(() => {
-    console.log("hello");
-}, 2000);
+	console.log("hello")
+}, 2000)
 
-const person = new Person("John");
+const _person = new Person("John")
 
 declare namespace Vehicle {
-    interface Car {
-        brand: string;
-        model: string;
-    }
+	interface Car {
+		brand: string
+		model: string
+	}
 }

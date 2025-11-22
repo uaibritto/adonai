@@ -36,7 +36,7 @@ do {
 
 try {
 	console.log("Try")
-} catch (error) {
+} catch (_error) {
 	console.log("Catch")
 } finally {
 	console.log("Finally")

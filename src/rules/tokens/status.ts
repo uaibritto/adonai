@@ -1,4 +1,4 @@
-import type { Color } from "interfaces";
+import type { Color } from "interfaces"
 
 export function status(color: Color) {
 	return {
@@ -32,6 +32,6 @@ export function status(color: Color) {
 
 		warning: color.warning,
 		"warning.background": color.warning,
-		"warning.border": color.warning,
-	};
+		"warning.border": color.warning
+	}
 }

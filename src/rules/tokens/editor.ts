@@ -1,4 +1,4 @@
-import type { Color } from "interfaces";
+import type { Color } from "interfaces"
 
 export function editor(color: Color) {
 	return {
@@ -20,6 +20,6 @@ export function editor(color: Color) {
 		"editor.active_wrap_guide": color.border,
 		"editor.indent_guide": color.border,
 		"editor.indent_guide_active": color.border,
-		"editor.invisible": color.surface,
-	};
+		"editor.invisible": color.surface
+	}
 }

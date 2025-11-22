@@ -1,4 +1,4 @@
-import type { Color } from "interfaces";
+import type { Color } from "interfaces"
 
 export function misc(color: Color) {
 	return {
@@ -22,6 +22,6 @@ export function misc(color: Color) {
 		"title_bar.background": color.background,
 		"title_bar.inactive_background": color.background,
 
-		"toolbar.background": color.background,
-	};
+		"toolbar.background": color.background
+	}
 }

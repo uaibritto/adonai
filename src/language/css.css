@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
 @base {
-    @apply flex flex-col items-center justify-center;
+	@apply flex flex-col items-center justify-center;
 }
 
-@apply {
-    @apply flex flex-col items-center justify-center;
+@apply { @apply flex flex-col items-center justify-center;
 }

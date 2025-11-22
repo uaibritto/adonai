@@ -1,6 +1,6 @@
-import type { Color } from "interfaces/colors";
+import type { Color } from "interfaces/colors"
 
-export const variant = "light" as const;
+export const variant = "light" as const
 
 export const palette: Color = {
 	background: "#fafafa",
@@ -32,5 +32,5 @@ export const palette: Color = {
 	red: "#ff4d5d",
 	teal: "#5dccb4",
 	white: "#fdfdfe",
-	yellow: "#f9b235",
-} as const;
+	yellow: "#f9b235"
+} as const

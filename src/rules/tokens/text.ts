@@ -1,4 +1,4 @@
-import type { Color } from "interfaces";
+import type { Color } from "interfaces"
 
 export function text(color: Color) {
 	return {
@@ -6,6 +6,6 @@ export function text(color: Color) {
 		"text.accent": color.text,
 		"text.disabled": color.muted,
 		"text.muted": color.muted,
-		"text.placeholder": color.muted,
-	};
+		"text.placeholder": color.muted
+	}
 }

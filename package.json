@@ -2,7 +2,7 @@
     "scripts": {
         "build:dark": "bun --watch src/build.ts --palette=dark",
         "build:light": "bun --watch src/build.ts --palette=light",
-        "lint": "biome check --write"
+        "lint": "biome check --write --unsafe"
     },
     "devDependencies": {
         "@biomejs/biome": "2.3.6",

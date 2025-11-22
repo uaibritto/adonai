@@ -1,5 +1,5 @@
-import type { Color } from "interfaces";
-import { darken } from "utils";
+import type { Color } from "interfaces"
+import { darken } from "utils"
 
 export function scrollbar(color: Color) {
 	return {
@@ -7,6 +7,6 @@ export function scrollbar(color: Color) {
 		"scrollbar.thumb.background": darken(color.surface, 5),
 		"scrollbar.thumb.hover_background": darken(color.surface, 10),
 		"scrollbar.track.border": color.border,
-		"scrollbar.thumb.border": darken(color.border, 10),
-	};
+		"scrollbar.thumb.border": darken(color.border, 10)
+	}
 }

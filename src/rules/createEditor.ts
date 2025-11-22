@@ -1,18 +1,5 @@
-import type { Color } from "interfaces";
-import {
-	border,
-	editor,
-	element,
-	ghost,
-	git,
-	icon,
-	misc,
-	panel,
-	scrollbar,
-	status,
-	terminal,
-	text,
-} from "rules/tokens";
+import type { Color } from "interfaces"
+import { border, editor, element, ghost, git, icon, misc, panel, scrollbar, status, terminal, text } from "rules/tokens"
 
 export function createEditor(color: Color) {
 	return {
@@ -27,6 +14,6 @@ export function createEditor(color: Color) {
 		...scrollbar(color),
 		...status(color),
 		...terminal(color),
-		...text(color),
-	};
+		...text(color)
+	}
 }

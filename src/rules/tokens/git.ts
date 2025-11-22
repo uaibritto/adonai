@@ -1,4 +1,4 @@
-import type { Color } from "interfaces";
+import type { Color } from "interfaces"
 
 export function git(color: Color) {
 	return {
@@ -24,6 +24,6 @@ export function git(color: Color) {
 
 		modified: color.red,
 		"modified.background": color.red,
-		"modified.border": color.red,
-	};
+		"modified.border": color.red
+	}
 }
